@@ -1,6 +1,8 @@
 # Gin Index Tests
 
 A repo for testing index creation of GIN  indexes using Django.
+It has one model `Article` with two fields `header`, `content`, and tries
+to create a gin index on `UPPER("header")`.
 
 ## Installation
 
